@@ -68,15 +68,3 @@ class Parser(ParserCore):
         caller = FunctionCaller(self.function_env, self.variable_env)
         caller.call(name)
 
-
-
-
-codigo = '''
-let x = 20;
-x = x + 30 / 90
-'''
-
-
-tokens = Lexer(codigo).tokenize()
-Par = Parser(tokens)
-Par.read()        
