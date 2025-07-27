@@ -46,12 +46,17 @@ Com carinho,
 Escreva todo código no arquivo txt **code**
 
 **Para declarar variáveis use "let {nome_variavel} = {valor_variavel}"**
+
 **Para alterar o valor de uma variável user "{nome_variavel} = {valor_variavel}"**
+
 **Também tente usar matemática: A linguagem aceita: Soma, subtração, multiplicação, divisão entre inteiros e flutuantes**
+
 **A linguagem aceita a soma entre duas strings, SOMENTE A SOMA, qualquer outro sinal matemático ocasionara um erro**
 
 **Lembra-se** tentar declarar uma variável já existente causará um erro
+
 **Lembra-se** tentar alterar valor de uma variável não declarado causará um erro
 
 **Após** escrever o código vá em **"teste.py"** e clique para rodar
+
 **Após** escrever o código vá para o terminal e digite **"python teste.py"**
