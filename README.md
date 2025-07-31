@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="zpyro-logo.png" alt="ZPyro Logo" width="300"/>
+</p>
+
 # 💥 Pyrothecnical Code (zpyro)
 
 ![Status](https://img.shields.io/badge/version-alpha-red)
