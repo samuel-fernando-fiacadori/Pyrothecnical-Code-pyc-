@@ -1,0 +1,2 @@
+class AlreadyInEnv(Exception):
+    pass

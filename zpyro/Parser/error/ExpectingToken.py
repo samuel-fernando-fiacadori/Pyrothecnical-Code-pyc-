@@ -1,0 +1,2 @@
+class ExpectingToken(Exception):
+    pass

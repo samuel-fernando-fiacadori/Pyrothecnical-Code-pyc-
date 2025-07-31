@@ -1,62 +1,41 @@
-# 🔥 Pyrothecnical Code (pyc)
+# 💥 Pyrothecnical Code (zpyro)
 
-> *"Nem toda chama que se apaga está extinta. Algumas só estão guardando força pra reacender."*
+![Status](https://img.shields.io/badge/version-alpha-red)
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-orange)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-## 🧠 Visão do Projeto
 
-**Pyrothecnical Code (pyc)** é uma linguagem experimental feita por: Samuel Fernando Fiacadori, dono deste repósitório, esse projeto é recente, estou trabalhando nele desde **18/05/2025** e estou oficialmente parando, por motivos escolares, em **26/07/2025**. A ideia era pra ser uma **brincadeira**, algo **divertido** e **desafiador** para mim 
-
-**Nota de Desenvolvimento** É muito triste pensar que este projeto vai ficar boiando aqui no GitHub, mas algum dia, prometo de alma, que irei finaliza-lo. Eu amo esse projeto e falo sem dúvida que foi o **melhor projeto da minha vida** até então.
-
-## 💡 O que já foi implementado
-
-- Lexer com automatos
-- Sistema de declaração de variáveis
-- Aritmética simples (+ - * /)
-- Alteração de valores
-- Estrutura básica de parsing
-- Primeiros testes com interpretador
-
-## 🚧 Em desenvolvimento (para o "eu do futuro")
-
-- Sintaxe personalizada (explorar sepy, lógica estilo LISP ou Python-like)
-- Manipulação de tipos compostos
-- Funções e escopos
-- Fluxo condicional (`if`, `else`, etc.)
-- Sistema de módulos simples
-- CLI básica para executar scripts `.pyc`
-
-## 🧭 Por que esse projeto importa
-
-Esse projeto representa um momento especial: o tempo livre das férias, a paixão por desafios reais, e a descoberta de que criar algo complexo pode ensinar mais do que qualquer curso.  
-Mesmo que este projeto seja pausado por agora, ele continua vivo — como ideia, como conceito, e como marco pessoal.
-
-## 💬 Mensagem para o futuro
-
-> Ei, se você está lendo isso e pensando em retomar o projeto... bem-vindo de volta.  
-> Esse código aqui ainda lembra de você.  
-> Pegue leve, se divirta, e continue fazendo magia com lógica.
-
-Com carinho,  
-**Seu Eu de 2025.**
+ZPyro é uma linguagem de programação experimental, feita do zero com Lexer, Parser, AST e um interpretador.  
+Feita pra aprender, zoar e se divertir — com um toque de caos e muito código raiz.
 
 ---
 
-## Modo de uso
-Escreva todo código no arquivo txt **code**
+## 🛠️ Modo de uso
 
-**Para declarar variáveis use "let {nome_variavel} = {valor_variavel}"**
+1. **Leia a documentação.**  
+   Sério, folheia com carinho. Vai deixar tudo mais divertido.
 
-**Para alterar o valor de uma variável user "{nome_variavel} = {valor_variavel}"**
+2. **Escreva seu código.**  
+   Use `code.zpyro` ou qualquer outro arquivo com a extensão `.zpyro`.
 
-**Também tente usar matemática: A linguagem aceita: Soma, subtração, multiplicação, divisão entre inteiros e flutuantes**
+3. **Execute no terminal (CMD):**
+   zpyro.bat caminho\do\arquivo.zpyro
 
-**A linguagem aceita a soma entre duas strings, SOMENTE A SOMA, qualquer outro sinal matemático ocasionara um erro**
+4. **Se divirta.**
+Você tá no controle. Modifique o Lexer. Reescreva o Parser. Esse projeto é seu.
 
-**Lembra-se** tentar declarar uma variável já existente causará um erro
+# Notas do desenvolvedor
+Eu, Samuel Fernando Fiacadori, estou feliz em dizer que o ZPyro finalmente chegou na sua versão Alpha!
+Ainda há bugs (vários), mas é com orgulho que compartilho esse projeto com você.
 
-**Lembra-se** tentar alterar valor de uma variável não declarado causará um erro
+# Melhorias em relação ao antigo ZPyro
+1. Parser e Interpretador agora são separados
 
-**Após** escrever o código vá em **"teste.py"** e clique para rodar
+2. Parser retorna nós (AST) ao invés de comandos diretos
 
-**Após** escrever o código vá para o terminal e digite **"python teste.py"**
+3. Execução via .bat (mais simples e direto)
+
+4. Sem mais debug chato na tela! 🙏
+
+Sinta-se livre pra fuçar, quebrar e reconstruir.
+O importante é se divertir aprendendo. 😄🔥

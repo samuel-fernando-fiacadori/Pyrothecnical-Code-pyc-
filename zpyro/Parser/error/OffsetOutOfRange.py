@@ -1,0 +1,2 @@
+class OffsetOutOfRange(Exception):
+    pass
